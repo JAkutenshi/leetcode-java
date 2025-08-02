@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static com.github.jakutenshi.leetcode.Problem28FindIndexOfFirstOccurrenceInString.strStr;
 
 class Problem28FindIndexOfFirstOccurrenceInStringTest {
-
     @Test
     public void example1() {
         var haystack = "sadbutsad";

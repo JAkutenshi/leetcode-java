@@ -6,7 +6,6 @@ import static com.github.jakutenshi.leetcode.Problem66PlusOne.plusOne;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Problem66PlusOneTest {
-
     @Test
     void example1() {
         var inputDigits = new int[] { 1, 2, 3 };

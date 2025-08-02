@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Problem88MergeSortedArrayTest {
-
     @Test
     void example1() {
         var nums1 = new int[] { 1, 2, 3, 0, 0, 0 };
