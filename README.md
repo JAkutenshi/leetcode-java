@@ -9,4 +9,5 @@
 | YYYY.MM.DD | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [Solution](src/main/java/com/github/jakutenshi/leetcode/Problem88MergeSortedArray.java) |
 | ---------- |------------- | --------------- |
 | 2026.08.02 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Solution](src/main/java/com/github/jakutenshi/leetcode/Problem36ValidSudoku.java) |
-| 2026.08.03 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [Solution](src/main/java/com/github/jakutenshi/leetcode/Problem128LongestConsecutiveSequence.java) |
+| 2026.08.03 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](src/main/java/com/github/jakutenshi/leetcode/Problem128LongestConsecutiveSequence.java) |
+| 2026.08.10 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](src/main/java/com/github/jakutenshi/leetcode/Problem347TopKFrequentElements.java) |
