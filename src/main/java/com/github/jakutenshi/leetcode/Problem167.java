@@ -1,6 +1,6 @@
 package com.github.jakutenshi.leetcode;
 
-public class Problem167TwoSumII {
+public class Problem167 {
     public int[] twoSum(int[] numbers, int target) {    
         int leftIdx = 0;
         int rightIdx = numbers.length - 1;

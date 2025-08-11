@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.function.UnaryOperator;
 
-public class Problem128LongestConsecutiveSequence {
+public class Problem128 {
     public int longestConsecutive(int[] nums) {
         // Step 0. Guards
         if (nums.length == 0) { // Empty guard

@@ -2,9 +2,9 @@ package com.github.jakutenshi.leetcode;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import static com.github.jakutenshi.leetcode.Problem28FindIndexOfFirstOccurrenceInString.strStr;
+import static com.github.jakutenshi.leetcode.Problem28.strStr;
 
-class Problem28FindIndexOfFirstOccurrenceInStringTest {
+class Problem28Test {
     @Test
     public void example1() {
         var haystack = "sadbutsad";

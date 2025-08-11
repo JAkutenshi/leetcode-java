@@ -7,12 +7,12 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class Problem15ThreeSumTest {
-    private Problem15ThreeSum solver;
+public class Problem15Test {
+    private Problem15 solver;
 
     @BeforeEach
     void beforeEach() {
-        solver = new Problem15ThreeSum();
+        solver = new Problem15();
     }
 
     @Test

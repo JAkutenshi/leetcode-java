@@ -5,12 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class Problem347TopKFrequentElementsTest {
-    private Problem347TopKFrequentElements solver;
+public class Problem347Test {
+    private Problem347 solver;
 
     @BeforeEach
     void beforeEach() {
-        solver = new Problem347TopKFrequentElements();
+        solver = new Problem347();
     }
 
     @Test

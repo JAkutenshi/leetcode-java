@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.IntFunction;
 
-public class Problem15ThreeSum {
+public class Problem15 {
     private final List<List<Integer>> answers = new ArrayList<>();
     private int[] sortedNums;
 

@@ -5,12 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class Problem167TwoSumIITest {
-    private Problem167TwoSumII solver;
+public class Problem16Test {
+    private Problem167 solver;
 
     @BeforeEach
     void beforeEach() {
-        solver = new Problem167TwoSumII();
+        solver = new Problem167();
     }
 
     @Test

@@ -1,6 +1,6 @@
 package com.github.jakutenshi.leetcode;
 
-public class Problem28FindIndexOfFirstOccurrenceInString {
+public class Problem28 {
     public static int strStr(String haystack, String needle) {
         if (needle.length() > haystack.length()) {
             return -1;

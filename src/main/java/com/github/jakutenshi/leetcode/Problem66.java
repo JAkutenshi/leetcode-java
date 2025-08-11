@@ -1,6 +1,6 @@
 package com.github.jakutenshi.leetcode;
 
-public class Problem66PlusOne {
+public class Problem66 {
     public static int[] plusOne(int[] digits) {
         final var lastDigitPlace = digits.length - 1;
         // making increment for the first digit

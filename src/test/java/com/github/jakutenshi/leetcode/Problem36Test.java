@@ -6,12 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class Problem36ValidSudokuTest {
-    private Problem36ValidSudoku sudokuSolver;
+public class Problem36Test {
+    private Problem36 sudokuSolver;
 
     @BeforeEach
     void beforeEach() {
-        sudokuSolver = new Problem36ValidSudoku();
+        sudokuSolver = new Problem36();
     }
 
     @Test

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Problem347TopKFrequentElements {
+public class Problem347 {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> histogram = new HashMap<>();
 

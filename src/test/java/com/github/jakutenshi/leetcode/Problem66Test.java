@@ -2,10 +2,10 @@ package com.github.jakutenshi.leetcode;
 
 import org.junit.jupiter.api.Test;
 
-import static com.github.jakutenshi.leetcode.Problem66PlusOne.plusOne;
+import static com.github.jakutenshi.leetcode.Problem66.plusOne;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class Problem66PlusOneTest {
+class Problem66Test {
     @Test
     void example1() {
         var inputDigits = new int[] { 1, 2, 3 };

@@ -1,6 +1,6 @@
 package com.github.jakutenshi.leetcode;
 
-public class Problem88MergeSortedArray {
+public class Problem88 {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         // nums1 have a zeroes suffix => we can start merging from greater number and put them to the nums1's end
         int nums2lastIdx = n - 1;

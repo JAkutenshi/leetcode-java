@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class Problem88MergeSortedArrayTest {
+class Problem88Test {
     @Test
     void example1() {
         var nums1 = new int[] { 1, 2, 3, 0, 0, 0 };
@@ -12,7 +12,7 @@ class Problem88MergeSortedArrayTest {
         var nums2 = new int[] { 2, 5, 6 };
         var n = 3;
         var expectedNums1 = new int[] { 1, 2, 2, 3, 5, 6 };
-        Problem88MergeSortedArray.merge(nums1, m, nums2, n);
+        Problem88.merge(nums1, m, nums2, n);
         assertArrayEquals(expectedNums1, nums1);
     }
 
@@ -23,7 +23,7 @@ class Problem88MergeSortedArrayTest {
         var nums2 = new int[] {   };
         var n = 0;
         var expectedNums1 = new int[] { 1 };
-        Problem88MergeSortedArray.merge(nums1, m, nums2, n);
+        Problem88.merge(nums1, m, nums2, n);
         assertArrayEquals(expectedNums1, nums1);
     }
 
@@ -34,7 +34,7 @@ class Problem88MergeSortedArrayTest {
         var nums2 = new int[] { 1 };
         var n = 1;
         var expectedNums1 = new int[] { 1 };
-        Problem88MergeSortedArray.merge(nums1, m, nums2, n);
+        Problem88.merge(nums1, m, nums2, n);
         assertArrayEquals(expectedNums1, nums1);
     }
 }

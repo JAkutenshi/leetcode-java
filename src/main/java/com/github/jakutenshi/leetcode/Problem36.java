@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Problem36ValidSudoku {
+public class Problem36 {
     private static final int BOARD_WIDTH = 9;
     private static final int BOARD_HEIGHT = 9;
 

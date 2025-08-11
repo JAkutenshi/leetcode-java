@@ -5,12 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class Problem128LongestConsecutiveSequenceTest {
-    private Problem128LongestConsecutiveSequence problemSolver;
+public class Problem128Test {
+    private Problem128 problemSolver;
 
     @BeforeEach
     void beforeEach() {
-        problemSolver = new Problem128LongestConsecutiveSequence();
+        problemSolver = new Problem128();
     }
 
     @Test
